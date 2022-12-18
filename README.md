@@ -35,5 +35,30 @@ From the total summary table Jeremy concludes that the variance of the coils of 
 
 ***However,*** looking at each lot individually, Jeremy sees that only **Lot1** and **Lot2** meet the design specifications by the variance of **0.98** and **7.47** respectively. **Lot 3** exceeds the specifications with the variance of **170.29**.
 
+## T-Tests on Suspension Coils
+
+Next step for Jeremy is to perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+By using the **suspension_coil.csv** data, which was already read into the R_script, Jeremy conducts the first ***t.test*** by inputting the table's **PSI** column and setting the mean equal to 1,500. 
+
+<img width="478" alt="Screenshot 2022-12-18 at 3 27 00 PM" src="https://user-images.githubusercontent.com/111609994/208325023-efc1b455-bb7d-4277-b364-fe1c96240880.png">
+
+By accounting the total population in this t.test, the mean of x appears to be 1498.78  and the **p-value of 0.06028 is greater than the significane level of 0.05**. This is not sufficient evidence and thus Jeremy **failes to reject the null hypothesis**, meaning that the mean of all manufacturing lots is statistically similar to the mean of 1,500.
+
+However, looking at each lot individually, Jeremy notices something different:
+
+<img width="487" alt="Screenshot 2022-12-18 at 3 32 05 PM" src="https://user-images.githubusercontent.com/111609994/208325240-dcb95da1-d380-430f-b6e7-a3805c33ef27.png">
+
+<img width="466" alt="Screenshot 2022-12-18 at 3 32 10 PM" src="https://user-images.githubusercontent.com/111609994/208325286-bc7696f1-c931-485b-a2a6-6922b4e434b3.png">
+
+
+*Both* ***Lot 1*** and ***Lot 2*** appear to have a mean of 1,500 and higher p-value than the significance level of 0.05. With P-values of 1 and 0.61 Jeremy simply can't see any statistical differences between the sample means the the population mean of 1,500. Thus, he failes to reject the null hypothesis.
+
+**But when Jeremy looks at the next t.test for Lot 3, he notices that Lot 3 has smaller p-value of 0.04168 and a mean of 1,496.14.***
+
+<img width="468" alt="Screenshot 2022-12-18 at 3 32 15 PM" src="https://user-images.githubusercontent.com/111609994/208325427-d7c59179-1433-43e4-96ff-a2d397945314.png">
+
+Jeremy proceeds to reject the null hypothesis for Lot 3. 
+
 
 
