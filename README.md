@@ -81,9 +81,13 @@ The study design would require a significant amount of data from competitors. Re
 * **Costs**
 * Horse Power
 * Engine
+* Sales
 
 ### ***Hypothesis***
 
 ***NULL***: MechaCars has a pricing advantage in the market (compared with competitors) based on consumer important performance factors
 ***A***: MechaCars doesn't have a pricing advantage in the market based on consumer important performance factors.
 
+### Statistical Analysis
+
+The best option to see the pricing advantage in this case would include looking at the correlation of these important factors for consumers and decide if they have any relationship or correlation with the prices and with the sales. The better option would be to see the correlation between sales and the car performance factors. Linear regression could be used in this scenario. Including several independent variables, multiple linear regression could be used. 
