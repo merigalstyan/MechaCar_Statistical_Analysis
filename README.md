@@ -60,5 +60,30 @@ However, looking at each lot individually, Jeremy notices something different:
 
 Jeremy proceeds to reject the null hypothesis for Lot 3. 
 
+## Study Design: MechaCar vs Competition
 
+### MechaCar performance against the competition
+
+In order to conduct a study design between MechaCar and its competitors, Jeremy would find metrics based on the null and alternative hypothesis. Additional data would be required to conduct such a study. In this case, Jeremy could look at MechaCar and its competitors, analyze several performance factors that are important for the consumers and decide if the car in MechaCars are priced correctly and better based on its performance and compared to its competitors.
+
+The study design would require a significant amount of data from competitors. Required data would include:
+* The competitors and their cars(models)
+* The main models and competitors that MechaCar will be competing with
+* The most important factors regarding the cars.
+
+### ***Metrics***
+
+** Independent Variables **
+
+* Safety Rating
+* Miles Per Gallon (mpg)
+* Selling Price
+* **Costs**
+* Horse Power
+* Engine
+
+### ***Hypothesis***
+
+***NULL***: MechaCars has a pricing advantage in the market (compared with competitors) based on consumer important performance factors
+***A***: MechaCars doesn't have a pricing advantage in the market based on consumer important performance factors.
 
